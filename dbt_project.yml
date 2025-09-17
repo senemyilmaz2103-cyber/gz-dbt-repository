@@ -40,6 +40,8 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+    mart:
+      +materialized: table
   +location: EU
 seeds:
   +location: EU

@@ -1,4 +1,4 @@
- {{config(meterialized='table')}}
+ {{ config(materialized='table') }}
 WITH orders_per_day AS (
     SELECT 
         date_date,

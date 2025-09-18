@@ -28,7 +28,7 @@ sources:
             description: the quantity of products purchased for a given order
 
         tests:
-          - dbt_unique_combination_of_columns:
+          - dbt_utils.unique_combination_of_columns:
               combination_of_columns:
                 - orders_id
                 - pdt_id
